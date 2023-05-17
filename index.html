@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Fitness Wonder</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="carousel.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" class="title">Fitness Wonder</a>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="carousel">
+          <img src="assets/gym.webp" alt="Carousel Image 1" />
+          <img src="assets/gym2.jpg" alt="Carousel Image 2" />
+          <img src="assets/gym3.jpeg" alt="Carousel Image 3" />
+
+          <a class="carousel-prev" onclick="changeSlide(-1)">&#10094;</a>
+          <a class="carousel-next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="card">
+          <div class="about-content">
+            <div class="about-image">
+              <img src="assets/gym.webp" alt="Fitness Wonder About" />
+            </div>
+            <div class="about-text">
+              <h2>About Us</h2>
+              <p>
+                We are a creative organization dedicated to providing innovative
+                fitness solutions. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Curabitur nec lorem eu sem ultricies
+                consectetur vel vel arcu. Vestibulum porta blandit arcu ac
+                posuere. Sed vulputate arcu ut congue porttitor. Phasellus sed
+                quam in nisi malesuada aliquet. Proin eu ultrices sapien.
+              </p>
+              <p>
+                Integer dignissim nunc eget lectus dapibus, sed posuere dui
+                tincidunt. Mauris scelerisque dui nec sapien consequat placerat.
+                Sed nec lacus bibendum, cursus diam vitae, dictum mauris. Ut
+                malesuada sapien non dui hendrerit, sit amet iaculis lorem
+                dictum. Vestibulum ante ipsum primis in faucibus orci luctus et
+                ultrices posuere cubilia Curae; Quisque scelerisque odio in dui
+                bibendum luctus.
+              </p>
+              <button class="learn-more-button">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="card">
+          <h2>Our Services</h2>
+          <ul class="service-list">
+            <li>
+              <div class="service-card">
+                <img src="assets/s2.jpg" alt="Personal Training" />
+                <h3>Personal Training</h3>
+                <p>
+                  Get personalized training sessions tailored to your fitness
+                  goals.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+                <img src="assets/s1.jpg" alt="Group Classes" />
+                <h3>Group Classes</h3>
+                <p>
+                  Join our group classes and enjoy a fun and motivating workout
+                  environment.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+                <img src="assets/s3.jpg" alt="Nutritional Guidance" />
+                <h3>Nutritional Guidance</h3>
+                <p>
+                  Receive expert guidance on nutrition to support your fitness
+                  journey.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="team">
+        <div class="card">
+          <h2>Our Team</h2>
+          <ul class="team-list">
+            <li>
+              <div class="team-card">
+                <img src="assets/t1.jpg" alt="Team Member 1" />
+                <h3>John Doe</h3>
+                <p>Personal Trainer</p>
+              </div>
+            </li>
+            <li>
+              <div class="team-card">
+                <img src="assets/t2.jpg" alt="Team Member 2" />
+                <h3>Jane Smith</h3>
+                <p>Group Fitness Instructor</p>
+              </div>
+            </li>
+            <li>
+              <div class="team-card">
+                <img src="assets/t3.jpg" alt="Team Member 3" />
+                <h3>David Johnson</h3>
+                <p>Nutritionist</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="card">
+          <h2>Contact Us</h2>
+          <p>
+            Get in touch with us to schedule a consultation or ask any questions
+            you may have.
+          </p>
+          <a href="contact.html" class="button">Contact Page</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Fitness Wonder. All rights reserved.</p>
+    </footer>
+
+    <a href="#" class="go-top-button">Go to Top</a>
+    <script src="script.js"></script>
+  </body>
+</html>

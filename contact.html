@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us - Fitness Wonder</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="carousel.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" class="title">Fitness Wonder</a>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="index.html#services">Our Services</a></li>
+          <li><a href="index.html#team">Our Team</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="carousel">
+          <img src="assets/gym.webp" alt="Carousel Image 1" />
+          <img src="assets/gym2.jpg" alt="Carousel Image 2" />
+          <img src="assets/gym3.jpeg" alt="Carousel Image 3" />
+
+          <a class="carousel-prev" onclick="changeSlide(-1)">&#10094;</a>
+          <a class="carousel-next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+      </section>
+      <section id="contact">
+        <h1>Contact Us</h1>
+
+        <form id="contact-form" action="submit-contact.php" method="POST">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+
+        <h2>Reach out to Us</h2>
+        <p>
+          We would love to hear from you. Please feel free to contact us through
+          the following channels:
+        </p>
+
+        <ul>
+          <li>
+            Email:
+            <a href="mailto:info@fitnesswonder.com">info@fitnesswonder.com</a>
+          </li>
+          <li>Phone: <a href="tel:+123456789">+123456789</a></li>
+          <li>
+            Follow us on
+            <a href="https://www.instagram.com/fitnesswonder">Instagram</a> and
+            <a href="https://www.facebook.com/fitnesswonder">Facebook</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Fitness Wonder. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
